@@ -1,0 +1,42 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title h1{
+    background: #0302029f ;
+    text-align: center;
+    color: greenyellow;
+    font-weight: 400;
+    
+}
+.thum{
+    position: relative;
+    text-align: center;
+   
+}
+.thum img{
+    width:300px;
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    border: 1px solid black;
+    
+}
+.image img{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 150px;
+}
+.choise{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.choise img{
+    width: 190px;
+}
